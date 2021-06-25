@@ -1,0 +1,22 @@
+.resume {
+    width: 80%;
+    margin: auto;
+    padding: 24px;
+    margin-top: 24px;
+}
+
+.boldThenNot {
+    padding: 6px 0px;
+}
+
+.boldThenNot p{
+    display: inline;
+}
+
+.boldThenNot p:first-of-type{
+    font-weight: 600;
+}
+
+.experienceSubheading {
+    font-style: italic;
+}

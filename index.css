@@ -1,0 +1,172 @@
+.aboutme {
+    display: inline-flex;
+    height: 500px;
+    width: 100%;
+    flex-direction: row;
+}
+
+.aboutme div img {
+    overflow: hidden;
+    object-fit: cover;
+    height: 100%;
+    padding: 32px;
+}
+
+.text {
+    padding: 32px;
+}
+
+.aboutmeHeader {
+    color: #81B29A;
+    font-weight: 600;
+    font-size: 24px;
+    padding: 12px 0px;
+}
+
+.aboutmeText {
+    color: #3D405B;
+    padding: 0px 24px;
+    font-size: 18px;
+}
+
+.aboutmeText div {
+    display: inline-block;
+}
+
+.aboutmeText :first-child{
+    font-weight: 600;
+}
+
+.aboutmeText a{
+    color: #3D405B;
+}
+
+.aboutmeText a:hover {
+    color: #E07A5F;
+    cursor: pointer;
+}
+
+.socialMedia {
+    height: 128px;
+}
+
+.socialMedia a img{
+    border-radius: 15px;
+    height: 64px;
+}
+
+.socialMedia a :hover{
+    background-color: #F2CC8F;
+    cursor: pointer;
+}
+
+.lists {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.favList {
+    width: 20%;
+    padding: 16px;
+    border: 5px dashed #3D405B;
+    margin: auto;
+}
+
+.favList ul, ol{
+    color: #3D405B;
+}
+
+.listsHeader {
+    color: #81B29A;
+    font-weight: 600;
+    font-size: 24px;
+    padding: 12px 0px;
+    text-align: center;
+}
+
+table, th, td {
+    border: 0px solid #3D405B;
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    background-color: #3D405B;
+}
+
+.main{
+    background-color: #3D405B;
+    color: #F4F1DE;
+}
+
+.sub{
+    background-color: #72769e;
+    color: #F4F1DE;
+}
+
+tr:nth-child(2n) {
+    background-color: #c8cae3;
+}
+
+tr:nth-child(2n-1){
+    background-color: #e6e7f0;
+}
+
+td a:hover{
+    color: #E07A5F;
+    cursor: pointer;
+}
+
+.tableOfStuff{
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    padding: 24px;
+}
+
+.favQuoteHeader{
+    color: #81B29A;
+    font-weight: 600;
+    font-size: 24px;
+    padding: 24px;
+}
+
+.favQuote{
+    height: 100px;
+    width: 80%;
+    display: inline-flex;
+    margin: auto;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.favQuote img {
+    height: 80px;
+    filter: invert(79%) sepia(40%) saturate(324%) hue-rotate(355deg) brightness(95%) contrast(100%);
+}
+
+.favWebsites {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 24px;
+}
+
+.favWebsites a img{
+    border-radius: 15px;
+    height: 128px;
+    padding: 24px;
+    margin: 0px 16px;
+}
+
+.favWebsites a :hover{
+    background-color: #F2CC8F;
+    cursor: pointer;
+}
+
+.favWebsites a p{
+    width: 124px;
+    text-align: center;
+    margin: auto;
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Raneem Soufi | External CSS</title>
+    <link rel="stylesheet" href="externalCSS.css" />
+    <link rel="stylesheet" href="universal.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="heading">External CSS</div>
+    <div class="navigation">
+      <a href="index.html">Home</a>
+      <a href="resume.html">Resume</a>
+      <a href="externalCSS.html" class="active">External CSS</a>
+    </div>
+    <div class="externalCSS">
+      <h1>From universal.css:</h1>
+      <p>
+        body{ background-color: #F4F1DE; font-family: 'Mulish', sans-serif;
+        margin: 0; padding: 0; }
+      </p>
+      <p>
+        .heading{ font-weight: 700; font-size: 48px; width: 100%; text-align:
+        center; font-family: 'Mulish', sans-serif; height: 150px;
+        background-color: #3D405B; color: #F2CC8F; display: inline-flex;
+        flex-direction: column; justify-content: center; }
+      </p>
+      <p>
+        .navigation{ background-color: #3D405B; float: right; width: 100%;
+        height: 50px; font-size: 28px; border-bottom: 5px dashed #F2CC8F; }
+      </p>
+      <p>.navigation .active { color: #81B29A }</p>
+      <p>
+        .navigation a{ color: #F2CC8F; padding: 0px 16px; font-weight: 650;
+        text-decoration: none; }
+      </p>
+      <p>.navigation a:hover{ color: #E07A5F; cursor: pointer; }</p>
+      <p>.redAndBold{ color:red; font-weight: 600; }</p>
+      <h1>From index.css:</h1>
+      <p>
+        .aboutme { display: inline-flex; height: 500px; width: 100%;
+        flex-direction: row; }
+      </p>
+      <p>
+        .aboutme div img { overflow: hidden; object-fit: cover; height: 100%;
+        padding: 32px; }
+      </p>
+      <p>.text { padding: 32px; }</p>
+      <p>
+        .aboutmeHeader { color: #81B29A; font-weight: 600; font-size: 24px;
+        padding: 12px 0px; }
+      </p>
+      <p>
+        .aboutmeText { color: #3D405B; padding: 0px 24px; font-size: 18px; }
+      </p>
+      <p>.aboutmeText div { display: inline-block; }</p>
+      <p>.aboutmeText :first-child{ font-weight: 600; }</p>
+      <p>.aboutmeText a{ color: #3D405B; }</p>
+      <p>.aboutmeText a:hover { color: #E07A5F; cursor: pointer; }</p>
+      <p>.socialMedia { height: 128px; }</p>
+      <p>.socialMedia a img{ border-radius: 15px; height: 64px; }</p>
+      <p>
+        .socialMedia a :hover{ background-color: #F2CC8F; cursor: pointer; }
+      </p>
+      <p>
+        .lists { width: 100%; display: inline-flex; justify-content: center; }
+      </p>
+      <p>
+        .favList { width: 20%; padding: 16px; border: 5px dashed #3D405B;
+        margin: auto; }
+      </p>
+      <p>.favList ul, ol{ color: #3D405B; }</p>
+      <p>
+        .listsHeader { color: #81B29A; font-weight: 600; font-size: 24px;
+        padding: 12px 0px; text-align: center; }
+      </p>
+      <p>table, th, td { border: 0px solid #3D405B; text-align: center; }</p>
+      <p>table { width: 80%; background-color: #3D405B; }</p>
+      <p>.main{ background-color: #3D405B; color: #F4F1DE; }</p>
+      <p>.sub{ background-color: #72769e; color: #F4F1DE; }</p>
+      <p>tr:nth-child(2n) { background-color: #c8cae3; }</p>
+      <p>tr:nth-child(2n-1){ background-color: #e6e7f0; }</p>
+      <p>
+        .tableOfStuff{ display: inline-flex; width: 100%; justify-content:
+        center; padding: 24px; }
+      </p>
+      <p>
+        .favQuoteHeader{ color: #81B29A; font-weight: 600; font-size: 24px;
+        padding: 24px; }
+      </p>
+      <p>
+        .favQuote{ height: 100px; width: 80%; display: inline-flex; margin:
+        auto; justify-content: center; font-size: 18px; }
+      </p>
+      <p>
+        .favQuote img { height: 80px; filter: invert(79%) sepia(40%)
+        saturate(324%) hue-rotate(355deg) brightness(95%) contrast(100%); }
+      </p>
+      <p>
+        .favWebsites { display: inline-flex; justify-content: center; width:
+        100%; padding-bottom: 24px; }
+      </p>
+      <p>
+        .favWebsites a img{ border-radius: 15px; height: 128px; padding: 24px;
+        margin: 0px 16px; }
+      </p>
+      <p>
+        .favWebsites a :hover{ background-color: #F2CC8F; cursor: pointer; }
+      </p>
+      <p>.favWebsites a p{ width: 124px; text-align: center; margin: auto; }</p>
+      <h1>From resume.css:</h1>
+      <p>
+        .resume { width: 80%; margin: auto; padding: 24px; margin-top: 24px; }
+      </p>
+
+      <p>.boldThenNot { padding: 6px 0px; }</p>
+
+      <p>.boldThenNot p{ display: inline; }</p>
+
+      <p>.boldThenNot p:first-of-type{ font-weight: 600; }</p>
+
+      <p>.experienceSubheading { font-style: italic; }</p>
+      <h1>From externalCSS.css:</h1>
+      <p>
+        .externalCSS { font-family: 'Source Code Pro', monospace; width: 90%;
+        margin-top: 24px; margin: auto; }
+      </p>
+    </div>
+  </body>
+</html>
